@@ -1,0 +1,9 @@
+*{
+    width: auto;
+    margin: 1%;
+    padding: 1%;
+}
+form{
+    background-image: linear-gradient(10deg,blue,white);
+    color: darkblue;
+}

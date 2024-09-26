@@ -1,0 +1,89 @@
+*{
+    margin: 2px;
+    padding: 2rem;
+}
+body{
+    background: url(starterBG.webp) center/cover no-repeat fixed;
+    color: aliceblue;
+    width: 10%;
+}
+.features{
+    position:absolute
+    color: white;
+    list-style-type: none; 
+    margin: 0px;
+    top: 0%;
+    width: 350px; 
+    height: -150px;
+}
+a{
+    text-decoration: none ;
+}
+/*.starters2{
+    margin: 100px;
+    float: left;
+    color: white;
+    list-style-type: none; 
+   /* width: 350px; 
+    height: -150px;*/
+
+
+h1{
+    color: rgb(231, 12, 33);
+    margin: 0px;
+    list-style-type: none;
+}
+h3{
+    margin: 0px;
+    width: 500px;
+}
+
+.features:hover{
+    width: 400px;
+    padding-left: 1rem;
+    background-image: linear-gradient(orange,lightgreen);
+    border-radius: 15px;
+}
+.next{
+    /*background-position-x: right;
+        background-image: linear-gradient(107deg,yellow,orange);
+    float:inline-end;
+    width: 250px;
+    height: 6rem;
+    border-radius: 20px;*/
+    width: 200px;
+    background-color: transparent;
+    display:contents;
+    width: 10px;
+    text-decoration: none;
+
+}
+.menu1{
+    margin: 0%;
+    background:transparent;
+    width: -2px;
+}
+.menu1:hover{
+    cursor: pointer;
+    
+    margin: -2px;
+    align-content: center;
+    color: lawngreen;
+}
+
+.btn2{
+    background: transparent;
+    width: 150px;
+    size-adjust: 10px;
+    border-radius: 2cap;
+    text-decoration: none;
+    
+}
+.colo{
+    background-color: transparent;
+    display:contents;
+    width: 10px;
+    text-decoration: none;
+
+}
+

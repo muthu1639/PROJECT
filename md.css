@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(mdBG2.jpg) center/cover no-repeat fixed;
+
+}
+a{
+    text-decoration: none;
+}
+#maincourse{
+    margin: 200px;
+    list-style-type: none;
+    color: white;
+}
+#maincourse:hover{
+    padding-left: 30px;
+    background: linear-gradient(orangered,red);
+}
+h2{
+    color: white;
+    background: transparent;
+}
+h2:hover{
+    background-color: yellow;
+    color: crimson;
+}
+.bev{
+    background: transparent;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.bev:hover{
+    background-color: white;
+    color: lightblue;
+    padding: 3px;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.par{
+    margin: 100px;
+    width: 30rem;
+    background: linear-gradient(100deg,aqua,red);
+    text-align: center;  
+}
+.par:hover{
+    cursor: cell;
+   background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding-left:5rem;
+    transition: 1000ms;
+}
+body{
+    background: url(about.jpg) center/cover no-repeat fixed;
+}

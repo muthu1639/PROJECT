@@ -1,0 +1,274 @@
+*{
+    margin: 5px;
+    padding: 5px;
+
+}
+.msg{
+    background-color: #fff;
+    color: black;
+}
+.navbar{
+    color: white;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-1);
+    transition: 1500ms;
+    z-index: 1;
+}
+
+.header{
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg,black),(blue);
+}
+
+/*Global Styling*/
+
+a{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+a:hover{
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    
+    padding-left: 2rem;
+    transition-duration: 1000ms;
+    border-left: 0.5rem yellow;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    margin: 0%;
+    padding-right: 2rem;
+    color: white;
+    font-family: 'Tahoma';
+}
+
+h2{
+    margin: -25%;
+    color: rgb(124, 10, 165);
+    
+    top: -10%;
+}
+h3{
+    color: crimson;
+    font-family: 'Courier New';
+    font-style: oblique;
+}
+.h3{
+    color: blue;
+    font-family: 'Lucida Sans';
+    font-weight: 1000;
+    background-image: linear-gradient(120deg,rgb(238, 244, 70),rgb(185, 111, 13));
+}
+.h3:hover{
+    background-color: beige ;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    padding-left: 3rem;
+    color:rgb(0, 0, 0);
+    transition: 200ms;
+}
+h4{
+    color: cornflowerblue;
+    font-family: 'Lucida Grande';
+}
+.span1{
+    background-color: (black,0,5,0,5);
+    width:10%;
+    top: 10%;
+    padding: 1.4%;
+}
+.span1:hover{
+    background-color:wheat;
+    cursor:grab;
+}
+
+/*Normal styling*/
+.menubar svg{
+    cursor: pointer;
+    fill: red;
+    position: fixed;
+    left:2rem; 
+    width: 2rem;
+    height: 4rem;
+}
+.menubar:hover svg{
+    margin: auto;
+    width: 30px;
+    fill: darkred;
+    padding-left: 1rem;
+    
+
+}
+
+.main{
+    background: url('food.jpg') center/cover no-repeat fixed;
+}
+
+.header span{
+    position: absolute;
+    right: 10px;
+    color: black;
+}
+.header .h3{
+    position: fixed;
+    align-content: center;
+    top: 1%;
+    left: 0%;
+      width: 90%;
+      height: 5%;
+      margin: auto;
+}
+.header img{
+    position: fixed;
+    align-items: center;
+    top: 1%;
+    left: 26%;
+    width: 5%;
+    height: 5%;
+    margin:0 auto;
+    border-radius: 100%;
+}
+.close{
+    position: fixed;
+    fill: lightgrey;
+    right: 2%;
+    top: 3px;
+    width: 3rem;
+    
+}
+.close:hover svg{
+    cursor: pointer;
+    fill:  white;
+    transition: 1500ms;
+    padding-right: 1rem;
+}
+
+.items{    
+    background-color: lightblue;
+    color: black;
+    width:fit-content;
+    margin: 10px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.items:hover{
+    cursor: pointer;
+    background-color: white;
+    color: lightblue;
+    text-shadow:aqua;
+    transition:100ms;
+    border-radius: 20px;
+
+}
+
+.head{
+   min-height: 100vh;
+   background: url(Mutton-Biryani.jpg) center/cover no-repeat fixed;
+  
+   width: 100%;
+   height: 100%;
+   
+}
+.head1 { 
+    text-align: center;
+    color: rgb(0, 255, 94);
+    text-shadow: 5px;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.head1 h1:hover{
+    color: rgb(124, 10, 165);
+    transition: 3500ms;
+    border-radius: 40px;
+
+}
+.head1.h2:hover{
+    cursor: pointer;
+    background-image: linear-gradient(red,black);
+    color: wheat;
+    transition: 1000ms;
+    border-radius: 12rem;
+}
+
+#feat{
+    margin: -40px;
+    background-image: linear-gradient(120deg,black,red);
+    width: 150px;
+    top: -40%;
+    flex-grow: initial;
+    color: rgb(82, 8, 8);
+    border-radius: 20px;
+}
+
+.starters:hover {
+    width: 120px;
+        padding-left: 1rem;
+        cursor: pointer;
+        background-image: linear-gradient(100deg,red,black);
+        color: rgb(165, 138, 138);
+        transition: 100ms;
+        overflow-y:auto;
+    }
+    
+
+.main1 {
+    width: 100px;
+    margin: 175px;
+    padding: 5%;
+    top: 30%;
+    flex-grow: initial;
+    background-image: linear-gradient(10deg,orange,rgb(36, 167, 36));
+    position: absolute;
+    color: rgb(53, 202, 8);
+    background-color: yellow;
+    border-radius: 10%;
+}
+.maincourse:hover{
+    width: 70px;
+    height: 70%;
+   padding-right: 1rem;
+    cursor: pointer;
+    background-image:linear-gradient(120yellow,green);
+    color: rgb(246, 3, 3);
+    transition: 100ms;
+    
+}
+.main2 {
+    width: 200px;
+    height: 350px;
+    margin: 450px;
+    padding: 2%;
+    top: -46%;
+    float:initial;
+    background-image: linear-gradient(10deg,rgb(120, 49, 49),rgb(132, 36, 167));
+    position: absolute;
+    color: rgb(170, 221, 17);
+    background-color: yellow;
+    border-radius: 10%;
+}
+.main2:hover{
+    background-image: linear-gradient(150deg,orange,gold);
+    color: black;
+}
+
+
+
+
+
+
+
+

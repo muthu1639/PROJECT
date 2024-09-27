@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-image: linear-gradient(180deg,lightblue,orange);
+}
+img{
+    width: 30px;
+    border-radius: 5px;
+}
+#u2{
+    color: blue;
+}
+#u2:hover{
+    width: 300px;
+    height: 170px;
+    background-color: #fff;
+    color: green;
+    border-radius: 10px;
+}
+#li2{
+    color: red;
+}
+#li2:hover{
+    width: 300px;
+    height: 170px;
+    color: darkgreen;
+    background-color: lightgreen;
+    border-radius: 15px;
+
+}

@@ -32,6 +32,10 @@ a:hover{
     margin: 20px;
     padding-left: 3px;
 }
+a{
+    margin: 0px;
+    text-decoration: none;
+}
 .click{
     margin: 20px;
     background: transparent;
@@ -41,6 +45,7 @@ a:hover{
     border-width: 6px;
 }
 #mp{
+    margin: 10px;
     background: transparent;
     text-decoration: none;
     border-radius: 4px;

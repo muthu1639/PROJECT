@@ -4,6 +4,7 @@
 }
 .body{
     background-image: linear-gradient(180deg,lightblue,orange);
+    
 }
 img{
     width: 30px;
@@ -11,6 +12,12 @@ img{
 }
 #u2{
     color: blue;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: green;
 }
 #u2:hover{
     width: 300px;
@@ -29,4 +36,18 @@ img{
     background-color: lightgreen;
     border-radius: 15px;
 
+}
+#bh{
+    padding-top: 30px;
+    background: transparent;
+    width: 201px;
+}
+a{
+    list-style-type: none;
+
+}
+#btnb{
+    margin: 50px;
+    padding-left: 2px;
+    background: transparent;
 }

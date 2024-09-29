@@ -1,0 +1,57 @@
+*{
+    margin: 10px;
+    padding:0%
+}
+body{
+    background-image: linear-gradient(blue,green,yellow);
+}
+
+h2{
+    color: tomato;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: yellow;
+    width: 150px;
+}
+h2:hover{
+    cursor: pointer;
+    padding-left: 2%;
+    background-color: #fff;
+    color: lightblue;
+}
+
+.menu{
+    background-color: blue;
+    color: aqua;
+
+}
+h1{
+    background-color: #fff;
+    color: orangered;
+    border-radius: 25px;
+}
+.edi{
+    background-color: red;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.edi1{
+    cursor: pointer;
+    background-color: red;
+    width: 90px;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 25px;
+    background-color: whitesmoke;
+    border-color: orange;
+}
+button:hover{
+    padding-inline: 20px;
+    cursor: pointer;
+    border-color: aqua;
+}

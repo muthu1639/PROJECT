@@ -35,8 +35,8 @@ a{
 }
 a:hover{
     cursor: pointer;
-    background-color: darkgoldenrod;
-    
+    background-color: lightgray;
+    color: darkblue;
     padding-left: 2rem;
     transition-duration: 1000ms;
     border-left: 0.5rem yellow;
@@ -44,6 +44,7 @@ a:hover{
 li{
     list-style-type: none;
 }
+
 h1{
     margin: 0%;
     padding-right: 2rem;
@@ -157,9 +158,11 @@ h4{
     background-color: lightblue;
     color: black;
     width:fit-content;
-    margin: 10px;
+    margin: -5px;
     padding: 12px;
     text-transform: uppercase;
+    border: 200p;
+    border:color(from color srgb r g b);
 }
 
 .items:hover{
@@ -261,10 +264,37 @@ h4{
     border-radius: 10%;
 }
 .main2:hover{
+    text-wrap: 20px;
     background-image: linear-gradient(150deg,orange,gold);
     color: white;
 }
+/*#men{
+    margin: 500px;
+    width: 200px;
+    color: white;
+    border-radius: 20px;
+    background-color: transparent;
+    }
+#men:hover{
+    cursor: pointer;
+    background-color: white;
+    color: royalblue;
+}*/
 
+.men
+{
+    width: 170px;
+    margin: 90x;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.men:hover{
+    background-color: darkred;
+   /*color: yellow;-->*/
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: 100ms;
+}
 
 
 

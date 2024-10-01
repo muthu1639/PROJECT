@@ -113,6 +113,8 @@ h4{
 
 .main{
     background: url('food.jpg') center/cover no-repeat fixed;
+    
+
 }
 
 .header span{
@@ -155,21 +157,23 @@ h4{
 }
 
 .items{    
-    background-color: lightblue;
+    background-color: lightgray;
     color: black;
-    width:fit-content;
+    width: 440px;
     margin: -5px;
     padding: 12px;
     text-transform: uppercase;
     border: 200p;
     border:color(from color srgb r g b);
+    display: flex;
+    border-radius: 20px;
 }
 
 .items:hover{
     cursor: pointer;
-    background-color: white;
-    color: lightblue;
-    text-shadow:aqua;
+    background-color: orange;
+    color: yellow;
+    text-shadow:white;
     transition:100ms;
     border-radius: 20px;
 
@@ -239,6 +243,7 @@ h4{
     color: rgb(53, 202, 8);
     background-color: yellow;
     border-radius: 10%;
+    
 }
 .maincourse:hover{
     width: 70px;
@@ -286,14 +291,18 @@ h4{
     width: 170px;
     margin: 90x;
     border-radius: 15px;
-    background-color: transparent;
+    background-color: yellow;
+    color: black;
 }
 .men:hover{
     background-color: darkred;
    /*color: yellow;-->*/
     border-radius: 10px;
     padding-left: 10px;
-    transition: 100ms;
+    transition: 1000ms;
+}
+.header{
+    display: inline-flex;
 }
 
 

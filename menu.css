@@ -34,6 +34,15 @@ h1{
     width: 60px;
     border-radius: 20px;
     cursor: pointer;
+    display: flex;
+    width: 170px;
+}
+.edi:hover{
+    padding: 2px;
+    background-color: #fff;
+    color: lightblue;
+    transition: 500ms;
+    border-color: sienna;
 }
 .edi1{
     cursor: pointer;
